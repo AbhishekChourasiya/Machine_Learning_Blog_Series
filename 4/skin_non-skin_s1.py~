@@ -17,6 +17,7 @@ X = data[:, range(0, 3)]
 print("last 10 attributes: \n" + str(X[-10:]))
 
 def plotter(c, index, plt):
+#label_colors = ["yellow" if value == 1 else "red" for value in Y[:500]]
     label_colors = []
     for value in Y[:500]:
     	if value == 1:
